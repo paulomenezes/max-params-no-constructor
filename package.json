@@ -1,13 +1,15 @@
 {
   "name": "eslint-plugin-max-params-no-constructor",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "Detect functions with too many parameters without the constructor",
+  "repository": "https://github.com/paulomenezes/max-params-no-constructor",
+  "homepage": "https://github.com/paulomenezes/max-params-no-constructor",
   "keywords": [
     "eslint",
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author": "Paulo",
+  "author": "Paulo Menezes",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha tests --recursive"
@@ -19,5 +21,5 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "license": "ISC"
+  "license": "MIT"
 }
